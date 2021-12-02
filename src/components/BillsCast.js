@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function BillsCast() {
+export default function BillsCast({ theBills }) {
   // Your code here
 
   return (

@@ -43,9 +43,7 @@ const BillSpecs = ({bill}) => {
             </div>
             <button
               className="ui button fluid"
-              onClick={() =>
-                console.log("connect this to a function that shows all bills")
-              }
+              onClick={bill}
             >
               Go Back
             </button>
